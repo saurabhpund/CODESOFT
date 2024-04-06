@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div id="calculator">
+			<div class="top">
+				<span id="calculate" class="material-icons">calculate</span>
+				<p id="text__calculate">Calculate</p>
+				<div class="top-right">
+					<span id="clickable" class="material-icons">horizontal_rule</span>
+					<span id="clickable" class="material-icons">crop_square</span>
+					<span id="clickable red" class="material-icons red">close</span>
+				</div>
+			</div>
+
+			<div id="topline"></div>
+			<input id="display" readonly />
+			<div id="keys">
+				<button id="btndark" onclick="appendToDisplay('%')">%</button>
+				<button id="btndark" onclick="clearDisplay('CE')">CE</button>
+				<button id="btndark" onclick="clearDisplay('c')">c</button>
+				<button id="btndark" onclick="clearLast('DEL')">DEL</button>
+				<button id="btndark" onclick="appendToDisplay('¹/𝑥')">¹/𝑥</button>
+				<button id="btndark" onclick="appendToDisplay('𝑥²')">𝑥²</button>
+				<button id="btndark" onclick="appendToDisplay('²√𝑥')">²√𝑥</button>
+				<button id="btndark" onclick="appendToDisplay('/')">÷</button>
+				<button onclick="appendToDisplay('7')">7</button>
+				<button onclick="appendToDisplay('8')">8</button>
+				<button onclick="appendToDisplay('9')">9</button>
+				<button id="btndark" onclick="appendToDisplay('*')">×</button>
+				<button onclick="appendToDisplay('4')">4</button>
+				<button onclick="appendToDisplay('5')">5</button>
+				<button onclick="appendToDisplay('6')">6</button>
+				<button id="btndark" onclick="appendToDisplay('-')">-</button>
+				<button onclick="appendToDisplay('1')">1</button>
+				<button onclick="appendToDisplay('2')">2</button>
+				<button onclick="appendToDisplay('3')">3</button>
+				<button id="btndark" onclick="appendToDisplay('+')">+</button>
+				<button onclick="appendToDisplay('±')">±</button>
+				<button onclick="appendToDisplay('0')">0</button>
+				<button onclick="appendToDisplay(',')">,</button>
+				<button id="btnlight" onclick="calculate()">=</button>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

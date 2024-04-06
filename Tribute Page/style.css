@@ -1,0 +1,96 @@
+body {
+  font-family: Century;
+
+  font-size: 18px;
+}
+#main {
+  border-radius: 10px;
+}
+#container {
+  max-width: 100%;
+  margin: auto;
+  background-image: url("https://freefrontend.com/assets/img/css-background-patterns/css3-gradient-pattern.png");
+}
+#title,
+#subtitle {
+  text-align: center;
+  font-family: URW Chancery;
+}
+img {
+  margin: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+  margin-bottom: 20px;
+}
+#img-div {
+  margin: auto;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+p {
+  margin-left: 15px;
+}
+
+#img-caption {
+  margin: auto;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#quote {
+  display: grid;
+  padding-left: 100px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  grid-template-columns: 600px 600px;
+  margin-bottom: 20px;
+}
+#quote-text {
+  padding-top: 80px;
+  padding-left: 80px;
+  text-align: justify;
+  font-family: URW Chancery L, cursive;
+  font-size: 30px;
+}
+#change-1 {
+  background-color: white;
+  background-image: linear-gradient(
+    to right,
+    lightgrey,
+    white,
+    lightgrey,
+    white
+  );
+}
+#change-2 {
+  background-color: black;
+  background-image: linear-gradient(to right, black, grey, grey, black);
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#tribute- {
+  margin: 40px 100px 100px 100px;
+  text-align: justify;
+  font-family: Apple Chancery, cursive;
+  letter-spacing: 1px;
+}
+#footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: serif;
+  font-weight: bold;
+}
+button {
+  margin-left: 45%;
+  color: white;
+  padding: 15px 15px 15px 15px;
+  background-color: black;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  margin-top: 1rem;
+}
